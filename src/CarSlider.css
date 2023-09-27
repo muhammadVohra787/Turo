@@ -1,0 +1,46 @@
+.prev-but ,.next-but{
+  
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  background-color:rgb(255, 255, 255);
+}
+.choose-company-btn 
+{ 
+  display: flex;
+  justify-content: center;
+}
+.choose-company{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  > div >p{
+    margin-top: 8%;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    @media (max-width: 1200px){
+      font-size: small;
+      font-weight: 400;
+    }
+
+  }
+  >div{
+    overflow: hidden;
+    border-radius: 25px;
+    border-bottom: 2px solid rgb(203, 202, 202);
+    border-left: 2px solid rgb(203, 202, 202);
+    border-right: 2px solid rgb(203, 202, 202);
+    margin-top: 2rem;
+    margin-right: 2%;
+    }
+    @media (max-width: 900px){
+      width: 100%;
+    }
+}
+.choose-cmp-img{
+  width: 250px;
+  overflow: hidden;
+
+}
